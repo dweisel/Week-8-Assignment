@@ -1,0 +1,58 @@
+body{
+    font-size: 100%; 
+    background-color: white;
+    text-align: center;
+} 
+h1{
+    font-size: 2.5em;
+
+} 
+
+h2{
+    font-size: 1.5em;
+}
+
+table{
+    color:red;
+    border-style: solid; border-color: black;
+    width: 100%;
+    border-collapse:collapse;
+}
+
+th, td{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+}
+
+p{
+    color:yellow
+}
+
+.every-odd li:nth-child(odd) {
+    background-color: gray;
+}
+
+tr:nth-child(odd){
+    background-color: gray;
+}
+
+tr:hover {
+background-color: brown;
+}
+
+li{
+    color: orange;
+}
+
+form{
+    border-style: double; border-color: darkorange; border-radius: 5px;
+}
+
+div{
+    border-style: solid; border-color: black;
+    color: red;
+}
+
